@@ -1,0 +1,229 @@
+body {
+    background-image: url("https://www.designbolts.com/wp-content/uploads/2013/02/Rose-Grey-Seamless-Patterns-For-Website-Background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1000px;
+}
+
+#page {
+    display: grid;
+    width: 100%;
+    height: 800px;
+    grid-template-areas: "head head"    
+                         "nav  main"
+                         "nav  foot";
+    grid-template-rows: 50px 1fr 30px;
+    grid-template-columns: 150px 1fr;
+  }
+  
+  #page > header {
+    grid-area: head;
+  }
+  
+  #page > nav {
+    grid-area: nav;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 8px;
+  }
+  
+  #page > main {
+    grid-area: main;
+  }
+  
+  #page > footer {
+    grid-area: foot;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 8px;
+  }
+
+  .firstImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .mainBody {
+      background-image: url("https://www.clearwatertravelplaza.com/hubfs/Banner_Images/Bakery%20Header.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-blend-mode: lighten;
+      
+  }
+
+  .container{
+      font-size: 30px;
+      display: flex;
+      flex-direction: column;
+    
+
+  }
+
+  .container > a {
+    flex: 1 1 0;
+  }
+
+  .navBar {
+      margin-left: 10px;
+      margin-top: 70px;
+      color: hotpink;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .aboutUs {
+      font-size: 20px;
+      position: absolute;
+      left: 0;
+      top: 10;
+      width: 100%;
+      text-align: center;
+      color: hotpink;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .secondImage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: 250x
+
+  }
+
+  @media only screen and (min-width: 300px)and (max-width: 899px){
+
+  }
+
+  .gridContainer2 {
+    display: grid;
+    height: 700px;
+    /* align-content: center; */
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 10px;
+  }
+
+  .gridContainer > div {
+    text-align: center;
+    padding: 300px 0px;
+    font-size: 30px;
+  }
+
+  .div1 {
+    background-image:url("https://ichef.bbci.co.uk/food/ic/food_16x9_832/recipes/salted_dark_chocolate_16338_16x9.jpg");
+    background-size: 100% 100%;
+  }
+
+  .div2 {
+    background-image:url("https://www.williams-sonoma.com/wsimgs/rk/images/dp/wcm/201922/0465/img14o.jpg");
+    background-size: 100% 100%;
+  }
+
+  .div3 {
+    background-image:url("https://irepo.primecp.com/2016/03/270626/recipe-27733_Category-CategoryPageDefault_ID-1540595.jpg?v=1540595");
+    background-size: 100% 100%;
+  }
+
+  .div4{
+    background-image:url("https://food.fnr.sndimg.com/content/dam/images/food/fullset/2007/2/16/0/ry0401_carrotcake.jpg.rend.hgtvcom.826.620.suffix/1552488933139.jpeg");
+    background-size: 100% 100%;
+  }
+
+  .div5{
+    background-image:url("https://www.gannett-cdn.com/presto/2019/04/10/USAT/91a69405-7159-4dcd-8848-a76edb7d90b8-image002.jpg?width=540&height=&fit=bounds&auto=webp");
+    background-size: 100% 100%;
+  }
+
+  .div6{
+    background-image:url("https://i.pinimg.com/474x/0b/7b/58/0b7b5878b46ee690e32f817cdd0c0fa5--ers-cake-st-birthday.jpg");
+    background-size: 100% 100%;
+  }
+
+  .headerCake{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    text-align: center
+
+  }
+
+  .div7 {
+    background-image:url("https://joyfoodsunshine.com/wp-content/uploads/2016/01/best-chocolate-chip-cookies-recipe-ever-no-chilling-1.jpg");
+    background-size: cover;
+  }
+
+  .div8{
+    background-image:url("https://images-gmi-pmc.edge-generalmills.com/8cf03fe6-7ebd-4804-840e-95c45eb5b9f7.jpg");
+    background-size: cover;
+  }
+
+  .div9 {
+    background-image:url("https://www.simplyrecipes.com/wp-content/uploads/2015/08/peanut-butter-cookies-horiz-a-1800-1024x683.jpg");
+    background-size: cover;
+  }
+
+  .div10{
+    background-image:url("https://img.sndimg.com/food/image/upload/c_thumb,q_80,w_578,h_325/v1/img/recipes/22/71/86/q4C3wgnRZ23oOPXRKZwu_IMG_2732%20no%20bake%20cookies.jpg");
+    background-size: cover;
+  }
+
+  .div11{
+    background-image:url("https://www.seriouseats.com/recipes/images/20091130-sugarcookiesprimary.jpg");
+    background-size: cover;
+  }
+
+  .div12{
+    background-image:url("https://i.pinimg.com/474x/b7/ee/dd/b7eeddc6e15600916efcedbedf9a0bb0--ers-birthday-party-football-sugar-cookies.jpg");
+    background-size: cover;
+  }
+
+  .div13 {
+    background-image:url("https://www.handletheheat.com/wp-content/uploads/2014/08/Cookies-and-Cream-Chocolate-Doughnuts-31-SQUARE.jpg");
+    background-size: cover;
+  }
+
+  .div14{
+    background-image:url("https://prods3.imgix.net/images/articles/2017_04/Feature-Glazed-Doughnuts.jpg?auto=format%2Ccompress&dpr=2&ixjsv=2.2.3&q=50&w=750");
+    background-size: cover;
+  }
+
+  .div15 {
+    background-image:url("https://cdn.newsday.com/polopoly_fs/1.19185462.1528919510!/httpImage/image.jpg_gen/derivatives/landscape_768/image.jpg");
+    background-size: cover;
+  }
+
+  .div16{
+    background-image:url("https://cutpcdnwimages.azureedge.net/images/products/95000/095244-600x600-A.jpg");
+    background-size: 100% 100%;
+  }
+
+  .div17{
+    background-image:url("https://media2.fdncms.com/orlando/imager/u/original/11450625/voodoo-doll-voodoo-doughnut-at-universal-citywalk.png");
+    background-size: 100% 100%;
+  }
+
+  .div18{
+    background-image:url("http://www.foodgal.com/wp-content/uploads/2013/02/SusieCakes49ers.jpg");
+    background-size: cover;
+  }
+
+  .headSpecial {
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+  }
+
+  .paragraph {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif
+  }
+
+  .homer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 250x
+  }
+

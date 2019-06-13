@@ -5,8 +5,9 @@ var lowerCase = str.toLowerCase()
 return upperCase + lowerCase
 }
 
-console.log(capilizAndLowercase ("Hello"))
+ console.log(capilizAndLowercase ("Hello"))
 
-function findMiddleindex(str) {
-    var 
+ function findMiddleindex(str) {
+
 }
+

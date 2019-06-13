@@ -1,0 +1,11 @@
+body{
+    background-image: url("http://www.stellasbakeryonline.com/siteart/sb_home_image.jpg");
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    background-repeat: no-repeat;
+}
+
+.h1{
+    background-color: blue;
+}

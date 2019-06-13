@@ -1,0 +1,86 @@
+* {
+    margin: 0
+}
+
+.first-section {
+    height: 100px;
+    background-color: blue;
+
+}
+
+.first-image {
+    height: 80px;
+    margin-left:50px;
+    margin-top:10px;
+}
+
+.price {
+    display:inline-block;
+    background-color: cornflowerblue;
+    color:white;
+}
+
+.second-section {
+    height: 100px;
+    background-color:green;
+
+}
+
+.third-section {
+    height: 100px;
+    background-color: orange;
+
+}
+
+.coin {
+    height: 30px;
+    margin-left:10px;
+    margin-top:10px;
+}
+
+.fourth-section{
+    height: 130px;
+    background-color: red;
+}
+
+.payment{
+    position: relative;
+    float: right;
+    margin-right: 5px;
+    margin-top: 20px;
+}
+
+.total {
+    display:inline-block;
+    background-color: cornflowerblue;
+    color:white;
+}
+
+.input{
+    display:inline-block;
+    height: 35px;
+    width: 30px;
+}
+
+.body{
+    background-color: burlywood
+}
+
+.title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    margin-left: 250px;
+}
+
+.names{
+    position: relative;
+    float: left;
+    margin-top: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    color: white
+}
+
+#results{
+    color: white;
+}
